@@ -6,6 +6,11 @@ export class Config {
   "inventoryURL": string;
 }
 
+export let nullConfig = {
+  "productsURL": "",
+  "inventoryURL": ""  
+}
+
 @Injectable({
   providedIn: 'root'
 })
